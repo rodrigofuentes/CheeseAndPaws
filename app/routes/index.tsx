@@ -1,4 +1,4 @@
-export default function Index() {
+export function Index() {
   return (
     <section className="flex h-screen items-center justify-center bg-gray-900 p-4 md:p-8">
       <div className="flex flex-col lg:flex-row">
@@ -30,11 +30,6 @@ export default function Index() {
       </div>
     </section>
   );
-  return (
-    <div>
-      <h1 className="text-6xl font-bold text-blue-400">
-        Welcome to Cheese And Paws
-      </h1>
-    </div>
-  );
 }
+
+export default Index;
