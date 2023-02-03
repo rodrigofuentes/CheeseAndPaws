@@ -9,7 +9,7 @@ import {
 } from "@remix-run/react";
 
 // import tailwind from "./tailwind.css";
-import styles from "./styles/app.css";
+import styles from "./styles/tailwind.css";
 
 export const links: LinksFunction = () => [{ rel: "stylesheet", href: styles }];
 

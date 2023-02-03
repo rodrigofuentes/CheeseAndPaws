@@ -9,7 +9,6 @@
     "dev:remix": "remix dev",
     "dev:css": "npm run generate:css -- --watch",
     "generate:css": "tailwindcss -w -i app/tailwind.css -o app/styles/tailwind.css",
-    "generate2:css": "npx tailwindcss -o ./app/styles/app.css",
     "start": "cross-env NODE_ENV=production netlify dev",
     "typecheck": "tsc"
   },
