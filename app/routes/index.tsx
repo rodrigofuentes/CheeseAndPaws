@@ -1,6 +1,6 @@
 export function Index() {
   return (
-    <section className="flex h-screen items-center justify-center bg-gray-900 p-4 md:p-8">
+    <section className="flex h-screen items-center justify-center bg-gray-900 p-4 font-poppins md:p-8">
       <div className="flex flex-col lg:flex-row">
         <div className="mx-auto flex max-w-screen-md flex-col items-center justify-center py-8 px-4 text-center lg:py-16 lg:px-12">
           <svg

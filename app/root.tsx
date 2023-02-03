@@ -12,7 +12,19 @@ import { Index } from "./routes/index";
 
 import styles from "./styles/tailwind.css";
 
-export const links: LinksFunction = () => [{ rel: "stylesheet", href: styles }];
+export const links: LinksFunction = () => [
+  { rel: "preconnect", href: "https://fonts.googleapis.com" },
+  {
+    rel: "preconnect",
+    href: "https://fonts.gstatic.com",
+    crossOrigin: "anonymous",
+  },
+  {
+    rel: "stylesheet",
+    href: "https://fonts.googleapis.com/css2?family=Poppins&display=swap",
+  },
+  { rel: "stylesheet", href: styles },
+];
 
 export const meta: MetaFunction = () => ({
   charset: "utf-8",
@@ -43,7 +55,7 @@ export default function App() {
         <Meta />
         <Links />
       </head>
-      <body>
+      <body className="poppins">
         <Outlet />
         <ScrollRestoration />
         <Scripts />
