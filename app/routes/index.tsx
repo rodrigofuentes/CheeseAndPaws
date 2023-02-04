@@ -18,7 +18,14 @@ export function Index() {
           </h1>
           <p className="font-light text-gray-500 dark:text-gray-400 md:text-lg xl:text-xl">
             Please PAWS while we get our site up and running! To order or
-            request info about an order, please email support.
+            request info about an order, please{" "}
+            <a
+              href="mailto:support@cheeseandpaws.com"
+              className="font-semibold text-white underline underline-offset-4"
+            >
+              email support
+            </a>
+            .
           </p>
         </div>
         <div className="flex min-h-min items-center justify-center">
