@@ -25,7 +25,7 @@ export function Index() {
           </p>
           <div className=" py-4 text-center lg:px-4">
             <div
-              className="flex items-center bg-indigo-800 p-2 text-sm leading-none text-indigo-100 lg:inline-flex lg:rounded-full"
+              className="flex items-center rounded-full bg-indigo-800 p-2 text-sm leading-none text-indigo-100 lg:inline-flex"
               role="alert"
             >
               <span className="mr-3 flex rounded-full bg-indigo-500 px-2 py-1 text-xs font-bold uppercase">
