@@ -55,7 +55,7 @@ export default function App() {
         <Meta />
         <Links />
       </head>
-      <body className="poppins">
+      <body className="poppins bg-gray-900">
         <Outlet />
         <ScrollRestoration />
         <Scripts />
